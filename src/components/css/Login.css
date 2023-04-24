@@ -1,0 +1,46 @@
+.div{
+    padding: 25px;
+    display: flex;
+    width: 4px;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(top, #75ffe1, #ef24e1);
+    margin-left: 90%;
+    margin-top: 20%;
+    width: 20em;        
+}
+.form{
+    display: grid;
+    justify-content: center;
+    box-shadow: #1d1d1d;
+}
+label {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
+}
+input {
+    color: var(--form-text);
+    background-color: var(--background);
+    font-size: inherit;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+
+button {
+    color: #1d1d1d;
+    color: var(--form-text);
+    background-color: #efefef;
+    background-color: var(--background);
+    font-family: inherit;
+    font-size: inherit;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    height: 40px;
+    margin-top: 10%;
+}
