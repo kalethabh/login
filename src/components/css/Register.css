@@ -18,7 +18,8 @@
     border-radius: 15px;
 }
 
-.form h5,h6 {
+.form h5,
+h6 {
     font-weight: bold;
     color: white;
 }
@@ -33,9 +34,11 @@
     display: block;
     width: 185px;
     border: none;
-    border-bottom: 1px solid #484646;
+    border-bottom: 2px solid #484646;
     background: transparent;
     color: #ffffff;
+        padding-bottom: 20px;
+
 }
 
 .main-input:focus {
@@ -44,14 +47,8 @@
 }
 
 .lebal-email {
-    color: #ffffff;
     font-size: 18px;
-    font-weight: normal;
-    position: absolute;
-    pointer-events: none;
-    left: 5px;
-    top: 10px;
-    transition: 0.2s ease all;
+    
 }
 
 .main-input:focus~.lebal-email,
@@ -78,7 +75,6 @@
 .main-input:focus~.highlight-span {
     animation: input-focus 0.3s ease;
 }
-
 @keyframes input-focus {
     from {
         background: #fcfcfc;
@@ -88,6 +84,7 @@
         width: 185px;
     }
 }
+
 button {
     padding: 1.3em 3em;
     font-size: 12px;
